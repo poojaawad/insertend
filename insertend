@@ -1,0 +1,23 @@
+//program to insert element at end
+#include<stdio.h>
+void main()
+{
+    int a[10],i,num,n;
+    printf("enter size of array");
+    scanf("%d",&n);
+    printf("enter array elements");
+    for(i=0;i<n;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+
+    printf("enter the element to insert");
+    scanf("%d",&num);
+    a[n]=num;
+    
+    
+    
+    for(i=0;i<=n;i++){
+        printf("%d",a[i]);
+    }
+}
